@@ -113,3 +113,52 @@ html {
     border: 1px solid black;
     background-color: aqua;
 }
+
+@media only screen and (max-width: 500px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .meni {
+        margin-bottom: 50px;
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meni ul li {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+
+    .meni ul li:nth-child(even) {
+        background-color: bisque;
+    }
+
+    .meni ul li:nth-child(odd) {
+        background-color:lightblue;
+    }
+
+    .naslov {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 3vh;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+    }
+
+  }
