@@ -154,6 +154,7 @@ html {
         padding-right: 1vh;
         border-radius: 10px;
         width: 33%;
+        height: 30px;
     }
 
     .meni ul li:nth-child(even) {
